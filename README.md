@@ -1,10 +1,10 @@
 # elm-to-pages 🌳
-`elm-to-gh-pages` is a GitHub Actions workflow that deploys an Elm app to GitHub Pages.
+`elm-to-gh-pages` is an example of how to deploy an Elm app to GitHub pages using GitHub Actions. You can either copy this repo and start from their, or follow the explanation below to setup an existing project ⬇️.
 
 ## Usage
 In a _public_ GitHub repo, go to `Settings > Pages > Source` and choose `GitHub Actions` instead of `Deploy from a branch`.
 
-Now create a directory `.github/workflows/` and put [`elm-to-gh-pages.yml`](./elm-to-gh-pages.yml) in it.
+Now create a directory `.github/workflows/` and put [`elm-to-gh-pages.yml`](./.github/workflows/elm-to-gh-pages.yml) in it.
 
 On your next push, your Elm app will be deployed to `yourusername.github.io/yourreponame`!
 
