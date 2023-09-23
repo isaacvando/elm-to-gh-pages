@@ -6,7 +6,7 @@ In a _public_ GitHub repo, go to `Settings > Pages > Source` and choose `GitHub 
 
 Now create a directory `.github/workflows/` and put [`elm-to-gh-pages.yml`](./.github/workflows/elm-to-gh-pages.yml) in it.
 
-On your next push, after 30 seconds or so, your Elm app will be deployed to `yourusername.github.io/yourreponame`!
+On your next push, after a few moments, your Elm app will be deployed to `yourusername.github.io/yourreponame`!
 
 ## Configuration
 
